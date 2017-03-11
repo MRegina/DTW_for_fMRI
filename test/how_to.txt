@@ -1,0 +1,10 @@
+To use the code, save every subject's every measurements' time-series to .txt files, where each column contains a brain region's (voxel or ROI) time series, and columns are separated by tabulators. (small example files in test/testset/)
+
+Create a separate .txt file that contains line-by-line the subject name (ID), the corresponding time-series data file's path, measurement occasion ID and run ID separated by tabulators. (example:test/test_input_names.txt)
+
+Create output folders: e.g. if you have 2 measurement occasions with two runs at each (e.g. 4 fMRI measurements per subjects) create 4 folders: output11 (1. occasion 1. run), output12 (1. occasion 2. run), output21 (2. occasion 1. run), output22 (2. occasion 2. run)
+The code will save separate thread outputs and a unified output for each measurement.
+
+By default the program uses 8 threads (if you have more CPU cores update the MAXNUMBEROFTHREADS macro in dtw.h)
+Currently the code is set to use a 100 s long waring window size, and Euclidean distance, while the output values are in int64 format. So before using the output take the square root of the values and divide by 10e4.
+

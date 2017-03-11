@@ -1,0 +1,2 @@
+test	E:\wholebrain_for_github\test\testset\test_resting1_data.txt	1	1	
+test	E:\wholebrain_for_github\test\testset\test_resting2_data.txt	1	2	
