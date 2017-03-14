@@ -1,5 +1,5 @@
 ﻿# DTW_for_fMRI 
-The repository contains a .cpp source code and two header files for parallelized DTW distance calculation for fMRI time-series. The repository also contains a test folder with example input files, output folder structure and output files. Please note that the software is currently provided without any exception handling for corrupted input data or non-existent folders, so prepare data and folder stucture carefully before running the code. Further explanations are enclosed in the test folder.
+The repository contains a .cpp source code and two header files for parallelized DTW distance calculation for fMRI time-series. The repository also contains a test folder with example input files, output folder structure and output files. Please note that the software is currently provided without any exception handling for corrupted input data or non-existent folders, so prepare data and folder stucture carefully before running the code. Further explanations are enclosed in the test folder. The code was built and tested on Windows 10 with Miscrosoft Visual Studio 2013.
 
 
 
