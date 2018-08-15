@@ -1,6 +1,7 @@
 ﻿# DTW_for_fMRI 
 The repository contains a .cpp source code and two header files for parallelized DTW distance calculation for fMRI time-series. The repository also contains a test folder with example input files, output folder structure and output files. Please note that the software is currently provided without any exception handling for corrupted input data or non-existent folders, so prepare data and folder stucture carefully before running the code. Further explanations are enclosed in the test folder. The code was built and tested on Windows 10 with Miscrosoft Visual Studio 2013.
 
+The repository also contains an easy-to-use Python implementation of DTW distance calculation for fMRI data, which also enables parallel computing, but only on the measurement level. The Python code is much shorter and easy to interpret, but naturally it is slower than the C++ implementation so I would only recommend its use in ROI based connectivity calculations.
 
 
 RESEARCH PAPERS TO CITE WHEN USING THIS SOFTWARE:
